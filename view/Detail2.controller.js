@@ -87,6 +87,7 @@ sap.ui.core.mvc.Controller.extend("au.com.bpse.view.Detail", {
 			var oData = oView.getModel().getData(sEntityPath);
 			if (!oData) {
 				this.showEmptyView();
+				debugger;
 				this.fireDetailNotFound();
 			} else {
 				this.fireDetailChanged(sEntityPath);

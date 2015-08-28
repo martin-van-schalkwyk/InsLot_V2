@@ -51,6 +51,18 @@ sap.ui.core.mvc.Controller.extend("au.com.bpse.view.Master2", {
 				transition: "slide"
 			});
 		}
+		if(oParameters.name === "detail")	{
+			sEntityPath = "/" + oParameters.arguments.entity;
+			this.bindView(sEntityPath);
+			
+			this.getRouter().myNavToWithoutHash({
+				currentView: this.getView(),
+				targetViewName: "au.com.bpse.view.Detail2",
+				targetViewType: "XML",
+				transition: "slide"
+			});
+			
+		}
 	},
 
 	bindView: function(sEntityPath) {

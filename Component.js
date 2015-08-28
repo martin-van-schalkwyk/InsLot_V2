@@ -197,7 +197,7 @@ sap.ui.core.UIComponent.extend("au.com.bpse.Component", {
 							targetAggregation: "detailPages",
 							subroutes: [
 								{
-									pattern: "master02/{entity}",
+									pattern: "master02/OperationCharSet({",
 									name: "detail2",
 									view: "Detail2",
 									viewLevel: 4,
