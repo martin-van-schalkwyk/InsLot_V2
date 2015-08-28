@@ -1,0 +1,1 @@
+sap.ui.core.mvc.Controller.extend("au.com.bpse.view.NotFound", {});

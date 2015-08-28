@@ -1,0 +1,57 @@
+<!--<core:View xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m" controllerName="au.com.bpse.view.Detail2" 
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+		
+		</content>
+	</Page>
+</core:View>-->
+
+<core:View controllerName="au.com.bpse.view.Detail2" xmlns:core="sap.ui.core" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<Page title="Results">
+		<content>
+			<ObjectHeader iconActive="false" id="__header0" intro="{Insplot}" introActive="true" number="{Evaluated}" numberUnit="eur"
+				title="{Inspchar}" titleActive="true"/>
+			<Table id="__table0" inset="false" items="{Results}" mode="SingleSelect"
+				noDataText="Drop column list items here and columns in the area above">
+				<customData>
+					<core:CustomData id="__data1" key="sap-ui-fastnavgroup" value="true" writeToDom="true"/>
+				</customData>
+				<items>
+					<ColumnListItem counter="0" id="__item0" select="onPress" type="Navigation">
+						<cells>
+							<Text id="__text0" maxLines="0" text="Row 1 Cell 1"/>
+							<Text id="__text1" maxLines="0" text="Row 1 Cell 2"/>
+							<Text id="__text2" maxLines="0" text="Row 1 Cell 3"/></cells>
+					</ColumnListItem>
+					<ColumnListItem counter="0" id="__item1">
+						<cells>
+							<Text id="__text3" maxLines="0" text="Row 2 Cell 1"/>
+							<Text id="__text4" maxLines="0" text="Row 2 Cell 2"/>
+							<Text id="__text5" maxLines="0" text="Row 2 Cell 3"/></cells>
+					</ColumnListItem>
+				</items>
+				<columns>
+					<Column id="__column0">
+						<header>
+							<Label id="__label0" text="You got it"/>
+						</header>
+					</Column>
+					<Column id="__column1">
+						<header>
+							<Label id="__label1" text="bro"/>
+						</header>
+					</Column>
+					<Column id="__column2">
+						<header>
+							<Label id="__label2" text="hime-ho"/>
+						</header>
+					</Column>
+				</columns>
+			</Table>
+		</content>
+	</Page>
+</core:View>

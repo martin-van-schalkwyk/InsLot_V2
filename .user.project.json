@@ -1,0 +1,36 @@
+{
+  "run": [
+    {
+      "filePath": "/InsLot_V2/index.html",
+      "previewMode": 0,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 9557770,
+        "displayName": "New Web Application"
+      }
+    },
+    {
+      "filePath": "/InsLot_V2/Component.js",
+      "previewMode": 0,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "_metadata": {
+        "runnerId": "fiorirunner",
+        "id": 4971856,
+        "displayName": "New SAP Fiori Component on Sandbox 1"
+      }
+    }
+  ]
+}

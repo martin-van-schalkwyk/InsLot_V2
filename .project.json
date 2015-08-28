@@ -1,0 +1,53 @@
+{
+  "dataBinding": {
+    "/view/Master.view.xml": {
+      "entitySet": "InspectionLotSet"
+    },
+    "/view/Master2.view.xml": {
+      "entitySet": "InspectionOperationSet"
+    },
+    "/view/Detail.view.xml": {
+      "entitySet": "InspectionOperationSet"
+    },
+    "/view/NotFound.view.xml": {
+      "entitySet": "UNBINDKEY"
+    },
+    "/view/App.view.xml": {
+      "entitySet": "UNBINDKEY"
+    },
+    "/view/Welcome.view.xml": {
+      "entitySet": "InspectionLotSet"
+    }
+  },
+  "generation": [
+    {
+      "templateId": "ui5template.fioriMasterMasterDetail",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Thu, 27 Aug 2015 12:34:01 GMT"
+    },
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationComponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Thu, 27 Aug 2015 14:16:09 GMT"
+    }
+  ],
+  "mockpreview": {
+    "mockUri": "/sap/opu/odata/sap/ZQMINSPECTIONS_SRV",
+    "metadataFilePath": "",
+    "loadJSONFiles": false,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "hcpdeploy": {
+    "account": "p1941567155trial",
+    "name": "inslotv2",
+    "lastVersionWeTriedToDeploy": "1.0.0"
+  }
+}
